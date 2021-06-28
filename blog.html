@@ -1,29 +1,323 @@
 <!doctype html>
 <html lang="en">
     <head>
-         <!--  meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Zetta hotel</title>
-         <!-- fontawsome v5 links -->
-        <link rel="stylesheet" href="css/all.min.css">
-        <!-- bootstrap v5 links -->
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <!-- style css link -->
-         <link rel="stylesheet" href="css/style.css">
-    </head>
+        <!--  meta tags -->
+       <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <title>Zetta hotel</title>
+        <!-- fontawsome v5 links -->
+       <link rel="stylesheet" href="css/all.min.css">
+        <!-- slike "slider" -->
+       <link rel="stylesheet" href="css/slick.css">
+         <link rel="stylesheet" href="css/slick-theme.css">  
+          <!-- fonts link -->
+   <link rel="stylesheet" href="css/Cairo-Bold.ttf">
+       <!-- bootstrap v5 links -->
+       <link rel="stylesheet" href="css/bootstrap.min.css">
+       <!-- style css link -->
+        <link rel="stylesheet" href="css/style.css">
+   </head>
     <body>
+        <!-- header section -->
+    <section class="header header-room">
+        <div class="container-lg">
+            <!-- navbar part -->
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">Zetta Hotels </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle"  id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    ROOMS
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="room.html">Rooms</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="resarant.html">RESTAURANT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="aboutus.html">ABOUT US</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="blog.html">BLOG</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="contactus.html">CONTACT</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+        <div class="layer d-flex flex-column justify-content-center">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-lg-7 col-md-12">
+                        <div class="header-info text-white pt-5">
+                            <h3 class="my-3"> BLOG</h3>
+                            <p class="w-75">Home | BLOG </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    
+    </section>
+        <!-- blog section  -->
+        <section class="blog py-5">
+            <div class="container"> 
+                <div class="row">
+                    <div class="col-lg-5 col-md-12">
+                        <div class="about-titles">
+                            <h5 class="text-primary">BLOG</h5>
+                            <h3 class="">Read our newest blog post right away.</h3>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="row mt-2">
+                    <div class="col-lg-4 col-md-6 mt-4">
+                        <div class="bg-light">
+                            <div class="img">
+                                <img src="images/foodblog.png" class="w-100" alt="">
+                            </div>
+                            <div class="info-blog py-3 text-center container">
+                                <h6 class="text-primary">fOOD AND LIFE</h6>
+                                <h4>Succed in hotel business</h4>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero, exho</p>
+                            </div>
+    
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-4 col-md-6 mt-4">
+                        <div class="bg-light">
+                            <div class="img">
+                                <img src="images/cook.png" class="w-100" alt="">
+                            </div>
+                            <div class="info-blog py-3 text-center container">
+                                <h6 class="text-primary">COOKING</h6>
+                                <h4>Cooking delicious food</h4>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero, exho</p>
+                            </div>
+    
+                        </div>
+                    </div>
+    
+    
+                    <div class="col-lg-4 col-md-6 mt-4">
+                        <div class="bg-light">
+                            <div class="img">
+                                <img src="images/fruit.png" class="w-100" alt="">
+                            </div>
+                            <div class="info-blog py-3 text-center container">
+                                <h6 class="text-primary">FRUITS</h6>
+                                <h4>Getting fresh fruits</h4>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero, exho</p>
+                            </div>
+    
+                        </div>
+                    </div>
+    
+                    
+                    <div class="col-lg-4 col-md-6 mt-4">
+                        <div class="bg-light">
+                            <div class="img">
+                                <img src="images/fruit.png" class="w-100" alt="">
+                            </div>
+                            <div class="info-blog py-3 text-center  container">
+                                <h6 class="text-primary">FRUITS</h6>
+                                <h4>Getting fresh fruits</h4>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero, exho</p>
+                            </div>
+    
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-4 col-md-6 mt-4">
+                        <div class="bg-light">
+                            <div class="img">
+                                <img src="images/cook.png" class="w-100" alt="">
+                            </div>
+                            <div class="info-blog py-3 text-center container">
+                                <h6 class="text-primary">COOKING</h6>
+                                <h4>Cooking delicious food</h4>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero, exho</p>
+                            </div>
+    
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-4 col-md-6 mt-4">
+                        <div class="bg-light">
+                            <div class="img">
+                                <img src="images/foodblog.png" class="w-100" alt="">
+                            </div>
+                            <div class="info-blog py-3 text-center container">
+                                <h6 class="text-primary">fOOD AND LIFE</h6>
+                                <h4>Succed in hotel business</h4>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero, exho</p>
+                            </div>
+    
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </section>
+    
+        <!-- photo section -->
+        <section class="photo">
+            <div class="container pt-5">
+                <div class="row">
+                    <div class="col-lg-5 cpl-md-12">
+                        <div class="about-titles">
+                            <h5 class="text-primary">PHOTOS</h5>
+                            <h3 class="">See our latest photos from restaurant and hotels</h3>
+                        </div>
+                     
+                        
+                    </div>
+                </div>
+            </div>
+    
+            <div class="container-fluid pt-3">
+                <div class="slider demo">
+                    <div class="">
+                        <img src="images/photo1.png" class="" alt="">
+                    </div>
+    
+                    <div class="">
+                       <img src="images/photo2.png" alt="">
+                    </div>
+    
+    
+                     <div>
+                       <img src="images/about1.png" alt="">
+                    </div>
+    
+    
+                    <div class="">
+                        <img src="images/photo1.png" class="" alt="">
+                    </div>
+    
+                    <div>
+                       <img src="images/photo4.png" alt="">
+                    </div> 
+    
+            </div>
+            </div>
+        </section>
+    <!-- footer section -->
+    <footer>
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mt-3">
+                    <div class="info">
+                        <h6>Zetta Hotel</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quidem temporibus molestias, accusantium laborum quas deserunt ad? Dolor, laboriosam dolorum. </p>
+                    </div>
+                    <div class="social">
+                        <img src="images/asset-9.png" alt="">
+                        <img src="images/asset-10.png" class="mx-3" alt="">
+                        <img src="images/asset-11.png"  alt="">
+                    </div>
+                </div> 
+                <div class="col-lg-2 col-md-6 mt-3">
+                    <div class="info">
+                        <h6>Useful Links</h6>
+                        <ul>
+                            <li>Blog</li>
+                            <li>Rooms</li>
+                            <li>Gift Card</li>
+                            <li>Testmonials</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-6 mt-3">
+                    <div class="info">
+                        <h6>Privacy </h6>
+                        <ul>
+                            <li>Career</li>
+                            <li>About Us</li>
+                            <li>Contact  </li>
+                            <li>service</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mt-3">
+                    <div class="info">
+                        <h6>Contact Info </h6>
+                        <ul>
+                            <li>
+                                <i class="far fa-envelope "></i>
+                                <span>example@yahoo.com</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-phone-volume"></i>
+                                <span>01236547895</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Lorem ipsum dolor sit</span>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="col-md-12 mt-4">
+                    <p class=""> CopyRight ©2020 All rights resereved | Or this template is made whit love by <span class="text-primary">
+                        M4M4
+                    </span> </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
         
     
-        <!-- fontawsome v5 script -->
-        <script src="js/all.min.js"></script>
-        <script src="js/popper.min.js"></script>
-        <!-- jquery v3 script -->
-        <script src="js/jquery-3.6.0.min.js"></script>
-        <!-- bootstrap v5 script -->
-        <script src="js/bootstrap.min.js"></script>
-        <!-- main script -->
-        <script src="js/main.js"></script>
+      <!-- fontawsome v5 script -->
+    <script src="js/all.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <!-- jquery v3 script -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <!-- slick :slider  -->
+    <script src="js/slick.min.js"></script>
+    <!-- bootstrap v5 script -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- main script -->
+    <script src="js/main.js"></script>
+
 
     </body>
 </html>
